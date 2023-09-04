@@ -1,5 +1,5 @@
 import './App.css'
-import Home from './routers/Home'
+import {Section} from "./components/section"
 
 export default function App() {
 
@@ -7,7 +7,7 @@ export default function App() {
     <>
       <div>
 
-        <Home></Home>
+      <Section></Section>
 
       </div>
     </>
