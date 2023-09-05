@@ -1,16 +1,17 @@
+import Menu from './components/Menu.jsx'
+import Rodape from './components/rodape.jsx'
 import './App.css'
-import Home from './routers/Home'
+import { Outlet } from 'react-router-dom'
 
 export default function App() {
 
   return (
     <>
-      <div>
-
-        <Home></Home>
-
-      </div>
+    <Menu/>
+      <Outlet/>
+    <Rodape/>
     </>
   )
 }
+
 
